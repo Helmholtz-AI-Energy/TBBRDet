@@ -44,7 +44,7 @@ You can find the latest version of the TBBR dataset here on Zenodo: https://doi.
 Paths to datasets/MLFlow/outputs/etc. need to be set within the config files. 
 You can search for the string `/path/to/` to know which to replace.
 
-For library usage instructions, see either the [MMDetection README](scripts/mmdet/README.md) or the [Detectron2 README]().
+For library usage instructions, see either the [MMDetection README](scripts/mmdet/README.md) or the [Detectron2 README](scripts/README.md).
 
 
 ## Structure
