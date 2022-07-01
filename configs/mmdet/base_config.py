@@ -57,10 +57,6 @@ data = dict(
         pipeline=train_pipeline,
     ),
     val=None,
-    # val=dict(
-    #     img_prefix='/hkfs/work/workspace/scratch/cd4062-wahn22/drone_dataset/Flug1_merged/test/images',
-    #     classes=classes,
-    #     ann_file='/hkfs/work/workspace/scratch/cd4062-wahn22/drone_dataset/Flug1_merged/test/annotations/Flug1_onelabel_coco.json'),
     test=dict(
         img_prefix=data_root + test_img_prefix,
         ann_file=data_root + test_ann_file,

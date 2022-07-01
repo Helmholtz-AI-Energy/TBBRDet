@@ -5,7 +5,7 @@ _base_ = '../_base_/default_runtime.py'
 dataset_type = 'CocoDataset'
 classes = ('Thermal bridge',)
 
-data_root = '/hkfs/work/workspace/scratch/cd4062-wahn22/drone_dataset/Flug1_merged/'
+data_root = '/path/to/dataset/'
 train_img_prefix = 'train/images/'
 train_ann_file = 'train/annotations/Flug1_onelabel_coco.json'
 test_img_prefix = 'test/images/'

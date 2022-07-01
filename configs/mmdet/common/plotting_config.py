@@ -11,12 +11,15 @@ log_level = 'INFO'
 load_from = None
 resume_from = None
 workflow = [('train', 1)]
-mlflow_tracking_uri = 'sqlite:////hkfs/work/workspace/scratch/cd4062-wahn22/drone_dataset/Flug1_merged/mlflow/mlruns.db'
-mlflow_artifact_root = '/hkfs/work/workspace/scratch/cd4062-wahn22/drone_dataset/Flug1_merged/mlflow/mlartifacts/'
+mlflow_tracking_uri = 'sqlite:////path/to/mlruns.db'
+mlflow_artifact_root = '/path/to/mlartifacts/'
 custom_imports = dict(imports=['numpy_loader'], allow_failed_imports=False)
 dataset_type = 'CocoDataset'
 classes = ('Thermal bridge', )
-data_root = '/hkfs/work/workspace/scratch/cd4062-wahn22/drone_dataset/Flug1_merged/'
+
+data_root = '/path/to/dataset/'
+work_dir = '/path/to/work_dir'  # Where the training output results
+
 train_img_prefix = 'train/images/'
 train_ann_file = 'train/annotations/Flug1_onelabel_coco.json'
 test_img_prefix = 'test/images/'
@@ -74,10 +77,8 @@ data = dict(
         times=3,
         dataset=dict(
             type='CocoDataset',
-            ann_file=
-            '/hkfs/work/workspace/scratch/cd4062-wahn22/drone_dataset/Flug1_merged/train/annotations/Flug1_onelabel_coco.json',
-            img_prefix=
-            '/hkfs/work/workspace/scratch/cd4062-wahn22/drone_dataset/Flug1_merged/train/images/',
+            ann_file=data_root + train_ann_file,
+            img_prefix=data_root + train_img_prefix,
             classes=('Thermal bridge', ),
             pipeline=[
                 dict(type='LoadNumpyImageFromFile', drop_height=False),
@@ -105,10 +106,8 @@ data = dict(
             ])),
     val=dict(
         type='CocoDataset',
-        ann_file=
-        '/hkfs/work/workspace/scratch/cd4062-wahn22/drone_dataset/Flug1_merged/test/annotations/Flug1_onelabel_coco.json',
-        img_prefix=
-        '/hkfs/work/workspace/scratch/cd4062-wahn22/drone_dataset/Flug1_merged/test/images/',
+        ann_file=data_root + test_ann_file,
+        img_prefix=data_root + test_img_prefix,
         classes=('Thermal bridge', ),
         pipeline=[
             dict(type='LoadNumpyImageFromFile', drop_height=False),
@@ -131,10 +130,8 @@ data = dict(
         ]),
     test=dict(
         type='CocoDataset',
-        ann_file=
-        '/hkfs/work/workspace/scratch/cd4062-wahn22/drone_dataset/Flug1_merged/test/annotations/Flug1_onelabel_coco.json',
-        img_prefix=
-        '/hkfs/work/workspace/scratch/cd4062-wahn22/drone_dataset/Flug1_merged/test/images/',
+        ann_file=data_root + test_ann_file,
+        img_prefix=data_root + test_img_prefix,
         classes=('Thermal bridge', ),
         pipeline=[
             dict(type='LoadNumpyImageFromFile', drop_height=False),
@@ -289,6 +286,5 @@ model = dict(
             max_per_img=100,
             mask_thr_binary=0.5)))
 fp16 = dict(loss_scale=dict(init_scale=512))
-work_dir = '/hkfs/work/workspace/scratch/cd4062-wahn22/drone_dataset/Flug1_merged/output/mmdet/MaskRCNN/mask_rcnn_r50_fpn_mstrain-poly_3x_coco.scratch/1645963'
 auto_resume = False
 gpu_ids = range(0, 4)

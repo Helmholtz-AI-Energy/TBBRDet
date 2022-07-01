@@ -3,7 +3,7 @@ custom_imports = dict(imports=['numpy_loader'], allow_failed_imports=False)
 
 # dataset settings
 dataset_type = 'CocoDataset'
-data_root = '/hkfs/work/workspace/scratch/cd4062-wahn22/drone_dataset/Flug1_merged/'
+data_root = '/path/to/dataset'
 classes = ('Thermal bridge',)
 
 train_img_prefix = 'train/images/'

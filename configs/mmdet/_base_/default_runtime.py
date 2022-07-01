@@ -24,5 +24,5 @@ workflow = [('train', 1)]
 # workflow = [('train', 1), ('val', 1)]
 
 # Will be placed within the data_root
-mlflow_tracking_uri = 'sqlite:////hkfs/work/workspace/scratch/cd4062-wahn22/drone_dataset/Flug1_merged/mlflow/mlruns.db'
-mlflow_artifact_root = '/hkfs/work/workspace/scratch/cd4062-wahn22/drone_dataset/Flug1_merged/mlflow/mlartifacts/'
+mlflow_tracking_uri = 'sqlite:////path/to/mlruns.db'
+mlflow_artifact_root = '/path/to/mlartifacts/'

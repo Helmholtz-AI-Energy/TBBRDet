@@ -7,17 +7,6 @@ _base_ = [
     '../_base_/default_runtime.py'
 ]
 
-# This was the original but the first layer's input dims don't match (it's 3 for RGB instead of 5)
-# pretrained = 'https://github.com/SwinTransformer/storage/releases/download/v1.0.0/swin_tiny_patch4_window7_224.pth'  # noqa
-# This has the first layer's weights removed so we can finetune it
-# pretrained = '/hkfs/work/workspace/scratch/cd4062-wahn22/mmdetection/swin_tiny_patch4_window7_224.truncated.pth'  # noqa
-# pretrained_init_cfg = dict(type='Pretrained', checkpoint=pretrained)
-# These are to turn off pretrianing
-# pretrained_init_cfg = dict()
-# load_from = ''
-# img_norm_cfg = dict(
-#     mean=[123.675, 116.28, 103.53], std=[58.395, 57.12, 57.375], to_rgb=True)
-
 model = dict(
     type='MaskRCNN',
     backbone=dict(
