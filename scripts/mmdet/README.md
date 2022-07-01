@@ -1,4 +1,4 @@
-# mmdetection scripts
+# MMDetection scripts
 
 Since `mmdetection` requires importing custom pipeline modules, all the scripts are in one place.
 
