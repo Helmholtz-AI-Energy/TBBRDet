@@ -66,6 +66,11 @@ For library usage instructions, see either the [MMDetection README](scripts/mmde
     └── utils                           <- Miscellaneous utility scripts
 ```
 
+## License
+
+This project is release under the 
+[BSD-3-Clause license](https://github.com/Helmholtz-AI-Energy/TBBRDet/blob/main/LICENSE)
+
 ## Acknowledgement
 
 This work is supported by the Helmholtz Association Initiative and Networking Fund on the HAICORE@KIT partition.
