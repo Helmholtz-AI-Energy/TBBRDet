@@ -65,3 +65,9 @@ For library usage instructions, see either the [MMDetection README](scripts/mmde
     ├── training                        <- Detectron2 training scripts
     └── utils                           <- Miscellaneous utility scripts
 ```
+
+## Acknowledgement
+
+This work is supported by the Helmholtz Association Initiative and Networking Fund on the HAICORE@KIT partition.
+We thank Marinus Vogl and the Air Bavarian GmbH for their support with equipment and service for the recording of images.
+We also thank Tobias Beiersdörfer for support in the development of the TBBR dataset.
