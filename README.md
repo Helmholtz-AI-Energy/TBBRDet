@@ -1,5 +1,15 @@
 # Thermal Bridges on Building Rooftops Detection (TBBRDet)
 
+This repository contains the corresponding code and training configurations for the 
+paper "Investigating deep learning approaches to building rooftop thermal 
+bridge detection from aerial images" (link TBA) and the dataset [Thermal 
+Bridges on Building Rooftops (TBBRv2)](https://doi.org/10.5281/zenodo.6517768).
+
+
+https://user-images.githubusercontent.com/12682506/177049125-36658a55-e07e-4355-8fbe-10d422cf7246.mp4
+
+
+
 ## Installation
 
 ### Detectron2
@@ -48,9 +58,10 @@ For library usage instructions, see either the [MMDetection README](scripts/mmde
 
 
 ## Structure
+
 ```
 ├── README.md                           <- This file
-├── configs                             <- Directory for configurations of model & application
+├── configs                             <- Directory for neural network and hyperparameter configurations
 │   ├── detectron2                      <- Detectron2 experiment configs
 │   └── mmdet                           <- MMDetection experiment configs
 └── scripts                             <- Python and Slurm scripts for running experiments
@@ -59,3 +70,14 @@ For library usage instructions, see either the [MMDetection README](scripts/mmde
     ├── training                        <- Detectron2 training scripts
     └── utils                           <- Miscellaneous utility scripts
 ```
+
+## License
+
+This project is release under the 
+[BSD-3-Clause license](https://github.com/Helmholtz-AI-Energy/TBBRDet/blob/main/LICENSE)
+
+## Acknowledgement
+
+This work is supported by the Helmholtz Association Initiative and Networking Fund on the HAICORE@KIT partition.
+We thank Marinus Vogl and the Air Bavarian GmbH for their support with equipment and service for the recording of images.
+We also thank Tobias Beiersdörfer for support in the development of the TBBR dataset.
