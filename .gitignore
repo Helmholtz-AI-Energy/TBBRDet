@@ -1,6 +1,5 @@
 # Custom ignores
 lightning_logs/
-models/
 logs/
 tags
 tags.lock
