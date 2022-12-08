@@ -1,6 +1,29 @@
 # MMDetection scripts
 
-Since `mmdetection` requires importing custom pipeline modules, all the scripts are in one place.
+For MMDetection instructions see the [MMDetection README](mmdet/README.md).
+
+Because MMDetection requires importing the pipeline class defined `numpy_loader.py` to load inputs,
+all MMDetection scripts are within a single directory.
+Similarly, `common_vars.py` defines common config parameters.
+
+All other scripts are adapted from the `tools/` scripts provided in the [MMDetection repository](https://github.com/open-mmlab/mmdetection).
+
+## Structure
+
+```
+├── README.md                       <- This file
+├── analyze_results.py              <- Plots loss/mAP curves
+├── browse_dataset.py               <- Visualise annotations and dataset
+├── combine_evaluation_scores.py    <- Calculate mean/std of evaluation scores
+├── common_vars.py                  <- Common configurations
+├── numpy_loader.py                 <- Pipeline class to load NumPy inputs
+├── slurm_bulk_test.sh              <- Submit multiple evaluation jobs
+├── slurm_submit.sh                 <- Submit a single training job
+├── submit_all_seeds.sh             <- Run multiple trainings with different seeds
+├── test.py                         <- Evaluate a trained model
+└── train.py                        <- Train a model
+```
+
 
 ## Visualisation
 
@@ -12,7 +35,11 @@ python browse_dataset.py --output-dir /path/to.output/ --channel RGB --not-show 
 
 ## Training
 
+TBD
+
 ## Testing
+
+TBD
 
 ## Analyzing results
 
