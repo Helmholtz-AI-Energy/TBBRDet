@@ -65,10 +65,6 @@ For library usage instructions, see either the [MMDetection README](scripts/mmde
 │   ├── detectron2                      <- Detectron2 experiment configs
 │   └── mmdet                           <- MMDetection experiment configs
 └── scripts                             <- Python and Slurm scripts for running experiments
-    ├── evaluation                      <- Detectron2 evaluation scripts
-    ├── mmdet                           <- All MMDetection experiment scripts
-    ├── training                        <- Detectron2 training scripts
-    └── utils                           <- Miscellaneous utility scripts
 ```
 
 ## License

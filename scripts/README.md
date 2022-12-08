@@ -5,6 +5,17 @@ This contains all scripts for preprocessing, training, and evaluating models, as
 The experiments described in the paper used two libraries: `Detectron2` and `MMDetection`.
 Their individual scripts are kept in their respective directories.
 
+## Structure
+
+```
+├── README.md                           <- This file
+├── alignment                           <- Detectron2 evaluation scripts
+├── evaluation                          <- Detectron2 evaluation scripts
+├── mmdet                               <- All MMDetection experiment scripts
+├── training                            <- Detectron2 training scripts
+└── utils                               <- Miscellaneous utility scripts
+```
+
 # Preprocessing
 
 # Detectron2 scripts
