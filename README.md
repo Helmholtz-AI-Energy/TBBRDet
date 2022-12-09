@@ -4,6 +4,7 @@ This repository contains the corresponding code and training configurations for 
 paper "Investigating deep learning approaches to building rooftop thermal 
 bridge detection from aerial images" (link TBA) and the dataset [Thermal 
 Bridges on Building Rooftops (TBBRv2)](https://doi.org/10.5281/zenodo.6517768).
+The raw, unannotated full set of collected drone images can be found [here](https://doi.org/10.5281/zenodo.7360996).
 
 
 https://user-images.githubusercontent.com/12682506/177049125-36658a55-e07e-4355-8fbe-10d422cf7246.mp4
