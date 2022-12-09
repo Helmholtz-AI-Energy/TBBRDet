@@ -9,7 +9,7 @@ batchgenerators==0.23
 black==21.4b2
 bleach==4.1.0
 cachetools==4.2.4
-certifi==2021.5.30
+certifi==2022.12.07
 cffi==1.15.0
 charset-normalizer==2.0.6
 click==8.0.3

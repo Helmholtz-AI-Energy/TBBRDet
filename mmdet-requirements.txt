@@ -2,7 +2,7 @@ absl-py==1.0.0
 addict==2.4.0
 alembic==1.7.6
 cachetools==4.2.4
-certifi==2021.10.8
+certifi==2022.12.07
 charset-normalizer==2.0.11
 click==7.1.2
 cloudpickle==2.0.0
