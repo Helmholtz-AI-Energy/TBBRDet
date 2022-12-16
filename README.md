@@ -1,5 +1,8 @@
 # Thermal Bridges on Building Rooftops Detection (TBBRDet)
 
+	
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/deep-learning-approaches-to-building-rooftop/instance-segmentation-on-tbbr)](https://paperswithcode.com/sota/instance-segmentation-on-tbbr?p=deep-learning-approaches-to-building-rooftop)
+
 This repository contains the corresponding code and training configurations for the 
 paper "Investigating deep learning approaches to building rooftop thermal 
 bridge detection from aerial images" (link TBA) and the dataset [Thermal 
