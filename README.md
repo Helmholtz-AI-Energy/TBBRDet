@@ -2,6 +2,7 @@
 
 	
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/deep-learning-approaches-to-building-rooftop/instance-segmentation-on-tbbr)](https://paperswithcode.com/sota/instance-segmentation-on-tbbr?p=deep-learning-approaches-to-building-rooftop)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/deep-learning-approaches-to-building-rooftop/object-detection-on-tbbr)](https://paperswithcode.com/sota/object-detection-on-tbbr?p=deep-learning-approaches-to-building-rooftop)
 
 This repository contains the corresponding code and training configurations for the 
 paper "Investigating deep learning approaches to building rooftop thermal 
