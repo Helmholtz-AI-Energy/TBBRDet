@@ -5,8 +5,8 @@
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/deep-learning-approaches-to-building-rooftop/object-detection-on-tbbr)](https://paperswithcode.com/sota/object-detection-on-tbbr?p=deep-learning-approaches-to-building-rooftop)
 
 This repository contains the corresponding code and training configurations for the 
-paper "Investigating deep learning approaches to building rooftop thermal 
-bridge detection from aerial images" (link TBA) and the dataset [Thermal 
+paper [Investigating deep learning approaches to building rooftop thermal 
+bridge detection from aerial images](https://doi.org/10.1016/j.autcon.2022.104690) and the dataset [Thermal 
 Bridges on Building Rooftops (TBBRv2)](https://doi.org/10.5281/zenodo.6517768).
 The raw, unannotated full set of collected drone images can be found [here](https://doi.org/10.5281/zenodo.7360996).
 
