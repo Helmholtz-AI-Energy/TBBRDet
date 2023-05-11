@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+url: "https://github.com/Helmholtz-AI-Energy/TBBRDet"
+preferred-citation:
+  journal: "Automation in Construction"
+  title: "Deep learning approaches to building rooftop thermal bridge detection from aerial images"
+  authors:
+  - family-names: "Mayer"
+    given-names: "Zoe"
+  - family-names: "Kahn"
+    given-names: "James"
+  - family-names: "Hou"
+    given-names: "Yu"
+  - family-names: "Götz"
+    given-names: "Markus"
+  - family-names: "Volk"
+    given-names: "Rebekka"
+  - family-names: "Schultmann"
+    given-names: "Frank"
+  volume: 146
+  pages: 104690
+  issue: 0926-5805
+  year: 2023
+  doi: 10.1016/j.autcon.2022.104690
