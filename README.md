@@ -20,7 +20,7 @@ https://user-images.githubusercontent.com/12682506/177049125-36658a55-e07e-4355-
 ### Detectron2
 
 To install you'll need a Python virtual environment with Detectron2 and PyTorch.
-We used CUDA 11.1 for the paper.
+(We used CUDA 11.1 for the paper)
 ```bash
 # Set up virtual environment
 python3 -m venv ~/venvs/tbbrdet_det2
@@ -28,8 +28,8 @@ python3 -m venv ~/venvs/tbbrdet_det2
 
 # Install dependencies
 pip install --upgrade pip
-pip install torch==1.8.0+cu111 torchvision==0.9.0+cu111 torchaudio==0.8.0 -f https://download.pytorch.org/whl/torch_stable.html
-python -m pip install detectron2 -f https://dl.fbaipublicfiles.com/detectron2/wheels/cu111/torch1.8/index.html
+pip install torch==1.10.1+cu113 torchvision==0.11.2+cu113 torchaudio==0.10.1+cu113 -f https://download.pytorch.org/whl/torch_stable.html
+python -m pip install detectron2 -f https://dl.fbaipublicfiles.com/detectron2/wheels/cu113/torch1.10/index.html
 ```
 We have provided a requirements file, we recommend using that to set up the remainder of the environment correctly.
 
@@ -51,8 +51,9 @@ You will find the name of the pretrained file used in our work within the corres
 You can then find the file within the MMDetection github repository `configs/` directory of that model.
 
 ## TBBR Dataset
-
-You can find the latest version of the TBBR dataset here on Zenodo: https://doi.org/10.5281/zenodo.4767771
+You can find the latest version of the TBBR dataset here on Zenodo: 
+train:  wget -r https://zenodo.org/record/4767772/files/Flug1_100-104Media_coco.json?download=1
+test:  wget -r https://zenodo.org/record/4767772/files/Flug1_105Media_coco.json?download=1
 
 ## Usage
 
